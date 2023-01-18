@@ -1,0 +1,136 @@
+@import url(https://fonts.google.com/specimen/Inconsolata);
+body {
+    background-color: bisque;
+    font-family: "Inconsolata", monospace;
+}
+
+h1 {
+    font-family: "Inconsolata", monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+}
+
+#notfound {
+    font-family: "Space Mono", monospace;
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 835px;
+    top: 165px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 95px;
+}
+
+p {
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+#scarecrow {
+    width: 40rem;
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+button {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    position: absolute;
+    top: 700px;
+    left: 250px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    background-color: rgb(215, 181, 141);
+}
+
+button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    button {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+.sr-only {
+    border: 0;
+    position: absolute;
+    white-space: nowrap;
+    top: 840px;
+    left: 690px;
+}
+
+#github {
+    width: 30px;
+    left: 160px;
+    position: absolute;
+    white-space: nowrap;
+    top: 13px !important;
+}
+
+.madeby {
+    font-size: 12px !important;
+}
+
+#githubaccount:visited {
+    color: black;
+}
+
+#githubaccount:hover {
+    color: rgb(215, 181, 141);
+}
+
+#githubaccount:active {
+    color: rgb(215, 181, 141);
+}
+
+#devch {
+    position: absolute;
+    left: 190px !important;
+    top: 20px !important;
+}
+
+#devch:visited {
+    color: black;
+}
+
+#devch:hover {
+    color: rgb(215, 181, 141);
+}
+
+#devch:active {
+    color: rgb(215, 181, 141);
+}
