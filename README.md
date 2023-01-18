@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://app.netlify.com/sites/glowing-moxie-3ade7f/overview">
+    <a href="https://chipper-malasada-1d4363.netlify.app/">
       Solution
     </a>
     <span> | </span>
